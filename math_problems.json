@@ -1,0 +1,522 @@
+[
+  {
+    "Problem": "What is the sum of 345 and 678?",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "345 + 678",
+    "Solution": 1023,
+    "Explanation": "Simply add the two numbers together: 345 + 678 = 1023.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 489 from 750.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "750 - 489",
+    "Solution": 261,
+    "Explanation": "Subtract the second number from the first: 750 - 489 = 261.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 56 by 23.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "56 * 23",
+    "Solution": 1288,
+    "Explanation": "Multiply the two numbers: 56 * 23 = 1288.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 720 by 8.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "720 / 8",
+    "Solution": 90,
+    "Explanation": "Divide the first number by the second: 720 / 8 = 90.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a basket, there are 25 apples. If 13 more are added, how many apples are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "25 + 13",
+    "Solution": 38,
+    "Explanation": "Add the initial count to the additional apples: 25 + 13 = 38.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Samantha has 48 candies. She gives 16 candies to her friend. How many candies does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "48 - 16",
+    "Solution": 32,
+    "Explanation": "Subtract the candies given from the initial count: 48 - 16 = 32.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Calculate the sum of 567 and 432.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "567 + 432",
+    "Solution": 999,
+    "Explanation": "Simply add the two numbers together: 567 + 432 = 999.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 246 from 890.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "890 - 246",
+    "Solution": 644,
+    "Explanation": "Subtract the second number from the first: 890 - 246 = 644.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 34 by 17.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "34 * 17",
+    "Solution": 578,
+    "Explanation": "Multiply the two numbers: 34 * 17 = 578.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 540 by 6.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "540 / 6",
+    "Solution": 90,
+    "Explanation": "Divide the first number by the second: 540 / 6 = 90.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "A shop had 120 pencils. If 25 more pencils are bought, how many pencils are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "120 + 25",
+    "Solution": 145,
+    "Explanation": "Add the initial count to the additional pencils: 120 + 25 = 145.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Mark has 72 marbles. He gives 28 marbles to his sister. How many marbles does he have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "72 - 28",
+    "Solution": 44,
+    "Explanation": "Subtract the marbles given from the initial count: 72 - 28 = 44.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Find the sum of 789 and 456.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "789 + 456",
+    "Solution": 1245,
+    "Explanation": "Simply add the two numbers together: 789 + 456 = 1245.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 573 from 950.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "950 - 573",
+    "Solution": 377,
+    "Explanation": "Subtract the second number from the first: 950 - 573 = 377.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 63 by 18.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "63 * 18",
+    "Solution": 1134,
+    "Explanation": "Multiply the two numbers: 63 * 18 = 1134.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 810 by 9.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "810 / 9",
+    "Solution": 90,
+    "Explanation": "Divide the first number by the second: 810 / 9 = 90.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a jar, there are 35 candies. If 20 more are added, how many candies are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "35 + 20",
+    "Solution": 55,
+    "Explanation": "Add the initial count to the additional candies: 35 + 20 = 55.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Alice has 96 balloons. She gives 40 balloons to her friend. How many balloons does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "96 - 40",
+    "Solution": 56,
+    "Explanation": "Subtract the balloons given from the initial count: 96 - 40 = 56.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Determine the sum of 876 and 321.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "876 + 321",
+    "Solution": 1197,
+    "Explanation": "Simply add the two numbers together: 876 + 321 = 1197.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 764 from 980.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "980 - 764",
+    "Solution": 216,
+    "Explanation": "Subtract the second number from the first: 980 - 764 = 216.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 42 by 19.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "42 * 19",
+    "Solution": 798,
+    "Explanation": "Multiply the two numbers: 42 * 19 = 798.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 720 by 12.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "720 / 12",
+    "Solution": 60,
+    "Explanation": "Divide the first number by the second: 720 / 12 = 60.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a box, there are 50 books. If 15 more are added, how many books are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "50 + 15",
+    "Solution": 65,
+    "Explanation": "Add the initial count to the additional books: 50 + 15 = 65.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "John has 80 stickers. He gives 25 stickers to his friend. How many stickers does he have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "80 - 25",
+    "Solution": 55,
+    "Explanation": "Subtract the stickers given from the initial count: 80 - 25 = 55.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Calculate the sum of 456 and 789.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "456 + 789",
+    "Solution": 1245,
+    "Explanation": "Simply add the two numbers together: 456 + 789 = 1245.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 678 from 890.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "890 - 678",
+    "Solution": 212,
+    "Explanation": "Subtract the second number from the first: 890 - 678 = 212.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 32 by 25.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "32 * 25",
+    "Solution": 800,
+    "Explanation": "Multiply the two numbers: 32 * 25 = 800.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 720 by 9.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "720 / 9",
+    "Solution": 80,
+    "Explanation": "Divide the first number by the second: 720 / 9 = 80.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a jar, there are 40 candies. If 30 more are added, how many candies are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "40 + 30",
+    "Solution": 70,
+    "Explanation": "Add the initial count to the additional candies: 40 + 30 = 70.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Sarah has 60 marbles. She gives 20 marbles to her friend. How many marbles does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "60 - 20",
+    "Solution": 40,
+    "Explanation": "Subtract the marbles given from the initial count: 60 - 20 = 40.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Subtract 387 from 650.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "650 - 387",
+    "Solution": 263,
+    "Explanation": "Subtract the second number from the first: 650 - 387 = 263.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "If a train travels 480 kilometers and then stops for a break, how far has it traveled if it restarts and covers an additional 320 kilometers?",
+    "Rationale": "Applying subtraction in a real-life scenario.",
+    "Formula": "480 - 320",
+    "Solution": 160,
+    "Explanation": "Subtract the distance covered after the break from the total distance: 480 - 320 = 160.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Maria had $450. She spent $120 on clothes. How much money does she have left?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "450 - 120",
+    "Solution": 330,
+    "Explanation": "Subtract the amount spent from the initial amount: $450 - $120 = $330.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "A farmer had 780 apples. After selling 420 apples, how many apples does the farmer have now?",
+    "Rationale": "Applying subtraction to a real-life scenario.",
+    "Formula": "780 - 420",
+    "Solution": 360,
+    "Explanation": "Subtract the sold apples from the initial count: 780 - 420 = 360.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "If there are 60 students in a class and 15 students leave for a field trip, how many students remain in the class?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "60 - 15",
+    "Solution": 45,
+    "Explanation": "Subtract the students leaving from the initial count: 60 - 15 = 45.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Multiply 23 by 34.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "23 * 34",
+    "Solution": 782,
+    "Explanation": "Multiply the two numbers: 23 * 34 = 782.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 540 by 6.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "540 / 6",
+    "Solution": 90,
+    "Explanation": "Divide the first number by the second: 540 / 6 = 90.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a basket, there are 30 apples. If 10 more are added, how many apples are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "30 + 10",
+    "Solution": 40,
+    "Explanation": "Add the initial count to the additional apples: 30 + 10 = 40.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Samantha has 60 candies. She gives 15 candies to her friend. How many candies does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "60 - 15",
+    "Solution": 45,
+    "Explanation": "Subtract the candies given from the initial count: 60 - 15 = 45.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Calculate the sum of 789 and 234.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "789 + 234",
+    "Solution": 1023,
+    "Explanation": "Simply add the two numbers together: 789 + 234 = 1023.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 356 from 500.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "500 - 356",
+    "Solution": 144,
+    "Explanation": "Subtract the second number from the first: 500 - 356 = 144.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 45 by 18.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "45 * 18",
+    "Solution": 810,
+    "Explanation": "Multiply the two numbers: 45 * 18 = 810.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 720 by 8.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "720 / 8",
+    "Solution": 90,
+    "Explanation": "Divide the first number by the second: 720 / 8 = 90.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a box, there are 50 books. If 20 more are added, how many books are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "50 + 20",
+    "Solution": 70,
+    "Explanation": "Add the initial count to the additional books: 50 + 20 = 70.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Alice has 96 balloons. She gives 30 balloons to her friend. How many balloons does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "96 - 30",
+    "Solution": 66,
+    "Explanation": "Subtract the balloons given from the initial count: 96 - 30 = 66.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Find the product of 27 and 14.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "27 * 14",
+    "Solution": 378,
+    "Explanation": "Multiply the two numbers: 27 * 14 = 378.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 540 by 9.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "540 / 9",
+    "Solution": 60,
+    "Explanation": "Divide the first number by the second: 540 / 9 = 60.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a basket, there are 40 oranges. If 15 more are added, how many oranges are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "40 + 15",
+    "Solution": 55,
+    "Explanation": "Add the initial count to the additional oranges: 40 + 15 = 55.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Chris has 75 cookies. He gives 25 cookies to his friend. How many cookies does he have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "75 - 25",
+    "Solution": 50,
+    "Explanation": "Subtract the cookies given from the initial count: 75 - 25 = 50.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Calculate the sum of 567 and 321.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "567 + 321",
+    "Solution": 888,
+    "Explanation": "Simply add the two numbers together: 567 + 321 = 888.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 459 from 820.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "820 - 459",
+    "Solution": 361,
+    "Explanation": "Subtract the second number from the first: 820 - 459 = 361.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 38 by 17.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "38 * 17",
+    "Solution": 646,
+    "Explanation": "Multiply the two numbers: 38 * 17 = 646.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 720 by 12.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "720 / 12",
+    "Solution": 60,
+    "Explanation": "Divide the first number by the second: 720 / 12 = 60.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a box, there are 60 notebooks. If 25 more are added, how many notebooks are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "60 + 25",
+    "Solution": 85,
+    "Explanation": "Add the initial count to the additional notebooks: 60 + 25 = 85.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "David has 90 pencils. He gives 35 pencils to his friend. How many pencils does he have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "90 - 35",
+    "Solution": 55,
+    "Explanation": "Subtract the pencils given from the initial count: 90 - 35 = 55.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Calculate the product of 52 and 19.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "52 * 19",
+    "Solution": 988,
+    "Explanation": "Multiply the two numbers: 52 * 19 = 988.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 720 by 8.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "720 / 8",
+    "Solution": 90,
+    "Explanation": "Divide the first number by the second: 720 / 8 = 90.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a basket, there are 25 mangoes. If 15 more are added, how many mangoes are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "25 + 15",
+    "Solution": 40,
+    "Explanation": "Add the initial count to the additional mangoes: 25 + 15 = 40.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Emma has 70 chocolates. She gives 25 chocolates to her friend. How many chocolates does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "70 - 25",
+    "Solution": 45,
+    "Explanation": "Subtract the chocolates given from the initial count: 70 - 25 = 45.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Calculate the sum of 789 and 123.",
+    "Rationale": "Testing addition skills with three-digit numbers.",
+    "Formula": "789 + 123",
+    "Solution": 912,
+    "Explanation": "Simply add the two numbers together: 789 + 123 = 912.",
+    "Category": "Addition"
+  },
+  {
+    "Problem": "Subtract 297 from 500.",
+    "Rationale": "Evaluating subtraction proficiency.",
+    "Formula": "500 - 297",
+    "Solution": 203,
+    "Explanation": "Subtract the second number from the first: 500 - 297 = 203.",
+    "Category": "Subtraction"
+  },
+  {
+    "Problem": "Multiply 36 by 14.",
+    "Rationale": "Testing multiplication skills with two-digit numbers.",
+    "Formula": "36 * 14",
+    "Solution": 504,
+    "Explanation": "Multiply the two numbers: 36 * 14 = 504.",
+    "Category": "Multiplication"
+  },
+  {
+    "Problem": "Divide 800 by 8.",
+    "Rationale": "Evaluating division proficiency.",
+    "Formula": "800 / 8",
+    "Solution": 100,
+    "Explanation": "Divide the first number by the second: 800 / 8 = 100.",
+    "Category": "Division"
+  },
+  {
+    "Problem": "In a box, there are 50 pens. If 15 more are added, how many pens are there in total?",
+    "Rationale": "Applying addition to a real-life scenario.",
+    "Formula": "50 + 15",
+    "Solution": 65,
+    "Explanation": "Add the initial count to the additional pens: 50 + 15 = 65.",
+    "Category": "Word Problem"
+  },
+  {
+    "Problem": "Olivia has 80 stickers. She gives 30 stickers to her friend. How many stickers does she have now?",
+    "Rationale": "Using subtraction in a practical context.",
+    "Formula": "80 - 30",
+    "Solution": 50,
+    "Explanation": "Subtract the stickers given from the initial count: 80 - 30 = 50.",
+    "Category": "Word Problem"
+  }
+]
