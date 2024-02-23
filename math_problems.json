@@ -1,522 +1,802 @@
 [
   {
-    "Problem": "What is the sum of 345 and 678?",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "345 + 678",
-    "Solution": 1023,
-    "Explanation": "Simply add the two numbers together: 345 + 678 = 1023.",
-    "Category": "Addition"
-  },
-  {
-    "Problem": "Subtract 489 from 750.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "750 - 489",
-    "Solution": 261,
-    "Explanation": "Subtract the second number from the first: 750 - 489 = 261.",
-    "Category": "Subtraction"
-  },
-  {
-    "Problem": "Multiply 56 by 23.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "56 * 23",
-    "Solution": 1288,
-    "Explanation": "Multiply the two numbers: 56 * 23 = 1288.",
-    "Category": "Multiplication"
-  },
-  {
-    "Problem": "Divide 720 by 8.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "720 / 8",
-    "Solution": 90,
-    "Explanation": "Divide the first number by the second: 720 / 8 = 90.",
-    "Category": "Division"
-  },
-  {
-    "Problem": "In a basket, there are 25 apples. If 13 more are added, how many apples are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "25 + 13",
-    "Solution": 38,
-    "Explanation": "Add the initial count to the additional apples: 25 + 13 = 38.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Samantha has 48 candies. She gives 16 candies to her friend. How many candies does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "48 - 16",
-    "Solution": 32,
-    "Explanation": "Subtract the candies given from the initial count: 48 - 16 = 32.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Calculate the sum of 567 and 432.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "567 + 432",
-    "Solution": 999,
-    "Explanation": "Simply add the two numbers together: 567 + 432 = 999.",
-    "Category": "Addition"
-  },
-  {
-    "Problem": "Subtract 246 from 890.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "890 - 246",
-    "Solution": 644,
-    "Explanation": "Subtract the second number from the first: 890 - 246 = 644.",
-    "Category": "Subtraction"
-  },
-  {
-    "Problem": "Multiply 34 by 17.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "34 * 17",
-    "Solution": 578,
-    "Explanation": "Multiply the two numbers: 34 * 17 = 578.",
-    "Category": "Multiplication"
-  },
-  {
-    "Problem": "Divide 540 by 6.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "540 / 6",
-    "Solution": 90,
-    "Explanation": "Divide the first number by the second: 540 / 6 = 90.",
-    "Category": "Division"
-  },
-  {
-    "Problem": "A shop had 120 pencils. If 25 more pencils are bought, how many pencils are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "120 + 25",
-    "Solution": 145,
-    "Explanation": "Add the initial count to the additional pencils: 120 + 25 = 145.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Mark has 72 marbles. He gives 28 marbles to his sister. How many marbles does he have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "72 - 28",
-    "Solution": 44,
-    "Explanation": "Subtract the marbles given from the initial count: 72 - 28 = 44.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Find the sum of 789 and 456.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "789 + 456",
-    "Solution": 1245,
-    "Explanation": "Simply add the two numbers together: 789 + 456 = 1245.",
-    "Category": "Addition"
+    "id": 1,
+    "original_text": "Samantha has 5 apples. She gives 2 apples to her friend. How many apples does Samantha have now?",
+    "segmented_text": ["Samantha", "has", "5", "apples", ".", "She", "gives", "2", "apples", "to", "her", "friend", ".", "How", "many", "apples", "does", "Samantha", "have", "now", "?"],
+    "equation": "5 - 2",
+    "answer": 3,
+    "category": "Subtraction"
+  },
+  {
+    "id": 2,
+    "original_text": "John has twice as many candies as Mary. Mary has 8 candies. How many candies does John have?",
+    "segmented_text": ["John", "has", "twice", "as", "many", "candies", "as", "Mary", ".", "Mary", "has", "8", "candies", ".", "How", "many", "candies", "does", "John", "have", "?"],
+    "equation": "2 * 8",
+    "answer": 16,
+    "category": "Multiplication"
+  },
+  {
+    "id": 3,
+    "original_text": "A rectangular garden has a length of 12 meters and a width of 5 meters. What is the area of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "12", "meters", "and", "a", "width", "of", "5", "meters", ".", "What", "is", "the", "area", "of", "the", "garden", "?"],
+    "equation": "12 * 5",
+    "answer": 60,
+    "category": "Multiplication"
+  },
+  {
+    "id": 4,
+    "original_text": "Emily has 7 red balloons and 4 blue balloons. How many balloons does she have in total?",
+    "segmented_text": ["Emily", "has", "7", "red", "balloons", "and", "4", "blue", "balloons", ".", "How", "many", "balloons", "does", "she", "have", "in", "total", "?"],
+    "equation": "7 + 4",
+    "answer": 11,
+    "category": "Addition"
+  },
+  {
+    "id": 5,
+    "original_text": "Tom has 15 candies. He wants to share them equally among 3 friends. How many candies will each friend get?",
+    "segmented_text": ["Tom", "has", "15", "candies", ".", "He", "wants", "to", "share", "them", "equally", "among", "3", "friends", ".", "How", "many", "candies", "will", "each", "friend", "get", "?"],
+    "equation": "15 / 3",
+    "answer": 5,
+    "category": "Division"
+  },
+  {
+    "id": 6,
+    "original_text": "There are 9 students in a classroom. If each student has 4 pens, how many pens are there in total?",
+    "segmented_text": ["There", "are", "9", "students", "in", "a", "classroom", ".", "If", "each", "student", "has", "4", "pens", ",", "how", "many", "pens", "are", "there", "in", "total", "?"],
+    "equation": "9 * 4",
+    "answer": 36,
+    "category": "Multiplication"
+  },
+  {
+    "id": 7,
+    "original_text": "Alex bought a shirt for $25 and a pair of jeans for $40. How much did he spend in total?",
+    "segmented_text": ["Alex", "bought", "a", "shirt", "for", "$25", "and", "a", "pair", "of", "jeans", "for", "$40", ".", "How", "much", "did", "he", "spend", "in", "total", "?"],
+    "equation": "25 + 40",
+    "answer": 65,
+    "category": "Addition"
+  },
+  {
+    "id": 8,
+    "original_text": "Lily has 18 marbles. She wants to divide them equally among 6 friends. How many marbles will each friend get?",
+    "segmented_text": ["Lily", "has", "18", "marbles", ".", "She", "wants", "to", "divide", "them", "equally", "among", "6", "friends", ".", "How", "many", "marbles", "will", "each", "friend", "get", "?"],
+    "equation": "18 / 6",
+    "answer": 3,
+    "category": "Division"
+  },
+  {
+    "id": 9,
+    "original_text": "In a garden, there are 14 rows of flowers, and each row has 9 flowers. How many flowers are there in total?",
+    "segmented_text": ["In", "a", "garden", ",", "there", "are", "14", "rows", "of", "flowers", ",", "and", "each", "row", "has", "9", "flowers", ".", "How", "many", "flowers", "are", "there", "in", "total", "?"],
+    "equation": "14 * 9",
+    "answer": 126,
+    "category": "Multiplication"
+  },
+  {
+    "id": 10,
+    "original_text": "Lisa saved $50 each month for 5 months. How much money does she have in total?",
+    "segmented_text": ["Lisa", "saved", "$50", "each", "month", "for", "5", "months", ".", "How", "much", "money", "does", "she", "have", "in", "total", "?"],
+    "equation": "50 * 5",
+    "answer": 250,
+    "category": "Multiplication"
+  },
+  {
+    "id": 11,
+    "original_text": "A bakery sells 32 cupcakes in the morning and 18 cupcakes in the evening. How many cupcakes does the bakery sell in a day?",
+    "segmented_text": ["A", "bakery", "sells", "32", "cupcakes", "in", "the", "morning", "and", "18", "cupcakes", "in", "the", "evening", ".", "How", "many", "cupcakes", "does", "the", "bakery", "sell", "in", "a", "day", "?"],
+    "equation": "32 + 18",
+    "answer": 50,
+    "category": "Addition"
+  },
+  {
+    "id": 12,
+    "original_text": "The perimeter of a rectangle is 24 meters. If the width is 5 meters, what is the length of the rectangle?",
+    "segmented_text": ["The", "perimeter", "of", "a", "rectangle", "is", "24", "meters", ".", "If", "the", "width", "is", "5", "meters", ",", "what", "is", "the", "length", "of", "the", "rectangle", "?"],
+    "equation": "(24 - 2 * 5) / 2",
+    "answer": 7,
+    "category": "Subtraction"
+  },
+  {
+    "id": 13,
+    "original_text": "A bookshelf has 5 shelves, and each shelf can hold 10 books. How many books can the entire bookshelf hold?",
+    "segmented_text": ["A", "bookshelf", "has", "5", "shelves", ",", "and", "each", "shelf", "can", "hold", "10", "books", ".", "How", "many", "books", "can", "the", "entire", "bookshelf", "hold", "?"],
+    "equation": "5 * 10",
+    "answer": 50,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Subtract 573 from 950.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "950 - 573",
-    "Solution": 377,
-    "Explanation": "Subtract the second number from the first: 950 - 573 = 377.",
-    "Category": "Subtraction"
+    "id": 14,
+    "original_text": "Mark has $80. He spent $25 on a video game and $15 on a new shirt. How much money does Mark have left?",
+    "segmented_text": ["Mark", "has", "$80", ".", "He", "spent", "$25", "on", "a", "video", "game", "and", "$15", "on", "a", "new", "shirt", ".", "How", "much", "money", "does", "Mark", "have", "left", "?"],
+    "equation": "80 - 25 - 15",
+    "answer": 40,
+    "category": "Subtraction"
   },
   {
-    "Problem": "Multiply 63 by 18.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "63 * 18",
-    "Solution": 1134,
-    "Explanation": "Multiply the two numbers: 63 * 18 = 1134.",
-    "Category": "Multiplication"
+    "id": 15,
+    "original_text": "A train travels at a speed of 60 km/h. If it travels for 3 hours, how far does the train travel?",
+    "segmented_text": ["A", "train", "travels", "at", "a", "speed", "of", "60", "km/h", ".", "If", "it", "travels", "for", "3", "hours", ",", "how", "far", "does", "the", "train", "travel", "?"],
+    "equation": "60 * 3",
+    "answer": 180,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Divide 810 by 9.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "810 / 9",
-    "Solution": 90,
-    "Explanation": "Divide the first number by the second: 810 / 9 = 90.",
-    "Category": "Division"
+    "id": 16,
+    "original_text": "A rectangle has a length of 9 units and a width of 6 units. What is the perimeter of the rectangle?",
+    "segmented_text": ["A", "rectangle", "has", "a", "length", "of", "9", "units", "and", "a", "width", "of", "6", "units", ".", "What", "is", "the", "perimeter", "of", "the", "rectangle", "?"],
+    "equation": "2 * (9 + 6)",
+    "answer": 30,
+    "category": "Multiplication"
   },
   {
-    "Problem": "In a jar, there are 35 candies. If 20 more are added, how many candies are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "35 + 20",
-    "Solution": 55,
-    "Explanation": "Add the initial count to the additional candies: 35 + 20 = 55.",
-    "Category": "Word Problem"
+    "id": 17,
+    "original_text": "Grace has 24 candies. She wants to share them equally among 8 friends. How many candies will each friend get?",
+    "segmented_text": ["Grace", "has", "24", "candies", ".", "She", "wants", "to", "share", "them", "equally", "among", "8", "friends", ".", "How", "many", "candies", "will", "each", "friend", "get", "?"],
+    "equation": "24 / 8",
+    "answer": 3,
+    "category": "Division"
   },
   {
-    "Problem": "Alice has 96 balloons. She gives 40 balloons to her friend. How many balloons does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "96 - 40",
-    "Solution": 56,
-    "Explanation": "Subtract the balloons given from the initial count: 96 - 40 = 56.",
-    "Category": "Word Problem"
+    "id": 18,
+    "original_text": "There are 15 students in a class. If each student has 3 notebooks, how many notebooks are there in total?",
+    "segmented_text": ["There", "are", "15", "students", "in", "a", "class", ".", "If", "each", "student", "has", "3", "notebooks", ",", "how", "many", "notebooks", "are", "there", "in", "total", "?"],
+    "equation": "15 * 3",
+    "answer": 45,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Determine the sum of 876 and 321.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "876 + 321",
-    "Solution": 1197,
-    "Explanation": "Simply add the two numbers together: 876 + 321 = 1197.",
-    "Category": "Addition"
+    "id": 19,
+    "original_text": "A garden has 16 rows of flowers. If each row has 7 flowers, how many flowers are there in total?",
+    "segmented_text": ["A", "garden", "has", "16", "rows", "of", "flowers", ".", "If", "each", "row", "has", "7", "flowers", ",", "how", "many", "flowers", "are", "there", "in", "total", "?"],
+    "equation": "16 * 7",
+    "answer": 112,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Subtract 764 from 980.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "980 - 764",
-    "Solution": 216,
-    "Explanation": "Subtract the second number from the first: 980 - 764 = 216.",
-    "Category": "Subtraction"
+    "id": 20,
+    "original_text": "Anna saved $30 each week for 4 weeks. How much money does she have in total?",
+    "segmented_text": ["Anna", "saved", "$30", "each", "week", "for", "4", "weeks", ".", "How", "much", "money", "does", "she", "have", "in", "total", "?"],
+    "equation": "30 * 4",
+    "answer": 120,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Multiply 42 by 19.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "42 * 19",
-    "Solution": 798,
-    "Explanation": "Multiply the two numbers: 42 * 19 = 798.",
-    "Category": "Multiplication"
+    "id": 21,
+    "original_text": "Alice has 14 stickers. She wants to arrange them equally in 2 albums. How many stickers will be in each album?",
+    "segmented_text": ["Alice", "has", "14", "stickers", ".", "She", "wants", "to", "arrange", "them", "equally", "in", "2", "albums", ".", "How", "many", "stickers", "will", "be", "in", "each", "album", "?"],
+    "equation": "14 / 2",
+    "answer": 7,
+    "category": "Division"
   },
   {
-    "Problem": "Divide 720 by 12.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "720 / 12",
-    "Solution": 60,
-    "Explanation": "Divide the first number by the second: 720 / 12 = 60.",
-    "Category": "Division"
+    "id": 22,
+    "original_text": "There are 25 students in a school bus. If each row has 5 students, how many rows are there in the school bus?",
+    "segmented_text": ["There", "are", "25", "students", "in", "a", "school", "bus", ".", "If", "each", "row", "has", "5", "students", ",", "how", "many", "rows", "are", "there", "in", "the", "school", "bus", "?"],
+    "equation": "25 / 5",
+    "answer": 5,
+    "category": "Division"
   },
   {
-    "Problem": "In a box, there are 50 books. If 15 more are added, how many books are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "50 + 15",
-    "Solution": 65,
-    "Explanation": "Add the initial count to the additional books: 50 + 15 = 65.",
-    "Category": "Word Problem"
+    "id": 23,
+    "original_text": "A box contains 8 red balls and 6 blue balls. What is the total number of balls in the box?",
+    "segmented_text": ["A", "box", "contains", "8", "red", "balls", "and", "6", "blue", "balls", ".", "What", "is", "the", "total", "number", "of", "balls", "in", "the", "box", "?"],
+    "equation": "8 + 6",
+    "answer": 14,
+    "category": "Addition"
   },
   {
-    "Problem": "John has 80 stickers. He gives 25 stickers to his friend. How many stickers does he have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "80 - 25",
-    "Solution": 55,
-    "Explanation": "Subtract the stickers given from the initial count: 80 - 25 = 55.",
-    "Category": "Word Problem"
+    "id": 24,
+    "original_text": "Mike runs at a speed of 8 meters per second. If he runs for 10 seconds, how far does he travel?",
+    "segmented_text": ["Mike", "runs", "at", "a", "speed", "of", "8", "meters", "per", "second", ".", "If", "he", "runs", "for", "10", "seconds", ",", "how", "far", "does", "he", "travel", "?"],
+    "equation": "8 * 10",
+    "answer": 80,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Calculate the sum of 456 and 789.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "456 + 789",
-    "Solution": 1245,
-    "Explanation": "Simply add the two numbers together: 456 + 789 = 1245.",
-    "Category": "Addition"
+    "id": 25,
+    "original_text": "A box contains 15 chocolates. If each row has 3 chocolates, how many rows are there in the box?",
+    "segmented_text": ["A", "box", "contains", "15", "chocolates", ".", "If", "each", "row", "has", "3", "chocolates", ",", "how", "many", "rows", "are", "there", "in", "the", "box", "?"],
+    "equation": "15 / 3",
+    "answer": 5,
+    "category": "Division"
   },
   {
-    "Problem": "Subtract 678 from 890.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "890 - 678",
-    "Solution": 212,
-    "Explanation": "Subtract the second number from the first: 890 - 678 = 212.",
-    "Category": "Subtraction"
+    "id": 26,
+    "original_text": "In a stack of books, there are 6 books in each row, and there are 8 rows. How many books are there in total?",
+    "segmented_text": ["In", "a", "stack", "of", "books", ",", "there", "are", "6", "books", "in", "each", "row", ",", "and", "there", "are", "8", "rows", ".", "How", "many", "books", "are", "there", "in", "total", "?"],
+    "equation": "6 * 8",
+    "answer": 48,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Multiply 32 by 25.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "32 * 25",
-    "Solution": 800,
-    "Explanation": "Multiply the two numbers: 32 * 25 = 800.",
-    "Category": "Multiplication"
+    "id": 27,
+    "original_text": "Daniel has $120. He spends $40 on a new phone and $30 on accessories. How much money does Daniel have left?",
+    "segmented_text": ["Daniel", "has", "$120", ".", "He", "spends", "$40", "on", "a", "new", "phone", "and", "$30", "on", "accessories", ".", "How", "much", "money", "does", "Daniel", "have", "left", "?"],
+    "equation": "120 - 40 - 30",
+    "answer": 50,
+    "category": "Subtraction"
   },
   {
-    "Problem": "Divide 720 by 9.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "720 / 9",
-    "Solution": 80,
-    "Explanation": "Divide the first number by the second: 720 / 9 = 80.",
-    "Category": "Division"
+    "id": 28,
+    "original_text": "A rectangular room has a length of 15 meters and a width of 10 meters. What is the perimeter of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "15", "meters", "and", "a", "width", "of", "10", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "room", "?"],
+    "equation": "2 * (15 + 10)",
+    "answer": 50,
+    "category": "Multiplication"
   },
   {
-    "Problem": "In a jar, there are 40 candies. If 30 more are added, how many candies are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "40 + 30",
-    "Solution": 70,
-    "Explanation": "Add the initial count to the additional candies: 40 + 30 = 70.",
-    "Category": "Word Problem"
+    "id": 29,
+    "original_text": "There are 20 apples in a basket. If each bag can hold 5 apples, how many bags are needed to store all the apples?",
+    "segmented_text": ["There", "are", "20", "apples", "in", "a", "basket", ".", "If", "each", "bag", "can", "hold", "5", "apples", ",", "how", "many", "bags", "are", "needed", "to", "store", "all", "the", "apples", "?"],
+    "equation": "20 / 5",
+    "answer": 4,
+    "category": "Division"
   },
   {
-    "Problem": "Sarah has 60 marbles. She gives 20 marbles to her friend. How many marbles does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "60 - 20",
-    "Solution": 40,
-    "Explanation": "Subtract the marbles given from the initial count: 60 - 20 = 40.",
-    "Category": "Word Problem"
+    "id": 30,
+    "original_text": "Olivia has 9 toys. She wants to share them equally among 3 friends. How many toys will each friend get?",
+    "segmented_text": ["Olivia", "has", "9", "toys", ".", "She", "wants", "to", "share", "them", "equally", "among", "3", "friends", ".", "How", "many", "toys", "will", "each", "friend", "get", "?"],
+    "equation": "9 / 3",
+    "answer": 3,
+    "category": "Division"
   },
   {
-    "Problem": "Subtract 387 from 650.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "650 - 387",
-    "Solution": 263,
-    "Explanation": "Subtract the second number from the first: 650 - 387 = 263.",
-    "Category": "Subtraction"
+    "id": 31,
+    "original_text": "A car travels at a speed of 65 km/h. If it travels for 4 hours, how far does the car travel?",
+    "segmented_text": ["A", "car", "travels", "at", "a", "speed", "of", "65", "km/h", ".", "If", "it", "travels", "for", "4", "hours", ",", "how", "far", "does", "the", "car", "travel", "?"],
+    "equation": "65 * 4",
+    "answer": 260,
+    "category": "Multiplication"
   },
   {
-    "Problem": "If a train travels 480 kilometers and then stops for a break, how far has it traveled if it restarts and covers an additional 320 kilometers?",
-    "Rationale": "Applying subtraction in a real-life scenario.",
-    "Formula": "480 - 320",
-    "Solution": 160,
-    "Explanation": "Subtract the distance covered after the break from the total distance: 480 - 320 = 160.",
-    "Category": "Word Problem"
+    "id": 32,
+    "original_text": "A farmer has 36 eggs. If he wants to pack them into cartons, and each carton can hold 6 eggs, how many cartons does he need?",
+    "segmented_text": ["A", "farmer", "has", "36", "eggs", ".", "If", "he", "wants", "to", "pack", "them", "into", "cartons", ",", "and", "each", "carton", "can", "hold", "6", "eggs", ",", "how", "many", "cartons", "does", "he", "need", "?"],
+    "equation": "36 / 6",
+    "answer": 6,
+    "category": "Division"
   },
   {
-    "Problem": "Maria had $450. She spent $120 on clothes. How much money does she have left?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "450 - 120",
-    "Solution": 330,
-    "Explanation": "Subtract the amount spent from the initial amount: $450 - $120 = $330.",
-    "Category": "Word Problem"
+    "id": 33,
+    "original_text": "Sophia has 20 cookies. She decides to share them equally among 5 friends. How many cookies will each friend get?",
+    "segmented_text": ["Sophia", "has", "20", "cookies", ".", "She", "decides", "to", "share", "them", "equally", "among", "5", "friends", ".", "How", "many", "cookies", "will", "each", "friend", "get", "?"],
+    "equation": "20 / 5",
+    "answer": 4,
+    "category": "Division"
   },
   {
-    "Problem": "A farmer had 780 apples. After selling 420 apples, how many apples does the farmer have now?",
-    "Rationale": "Applying subtraction to a real-life scenario.",
-    "Formula": "780 - 420",
-    "Solution": 360,
-    "Explanation": "Subtract the sold apples from the initial count: 780 - 420 = 360.",
-    "Category": "Word Problem"
+    "id": 34,
+    "original_text": "In a game, players earn 25 points for each correct answer. If a player answers 8 questions correctly, how many points does the player earn?",
+    "segmented_text": ["In", "a", "game", ",", "players", "earn", "25", "points", "for", "each", "correct", "answer", ".", "If", "a", "player", "answers", "8", "questions", "correctly", ",", "how", "many", "points", "does", "the", "player", "earn", "?"],
+    "equation": "25 * 8",
+    "answer": 200,
+    "category": "Multiplication"
   },
   {
-    "Problem": "If there are 60 students in a class and 15 students leave for a field trip, how many students remain in the class?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "60 - 15",
-    "Solution": 45,
-    "Explanation": "Subtract the students leaving from the initial count: 60 - 15 = 45.",
-    "Category": "Word Problem"
+    "id": 35,
+    "original_text": "A rectangular field has a length of 30 meters and a width of 8 meters. What is the area of the field?",
+    "segmented_text": ["A", "rectangular", "field", "has", "a", "length", "of", "30", "meters", "and", "a", "width", "of", "8", "meters", ".", "What", "is", "the", "area", "of", "the", "field", "?"],
+    "equation": "30 * 8",
+    "answer": 240,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Multiply 23 by 34.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "23 * 34",
-    "Solution": 782,
-    "Explanation": "Multiply the two numbers: 23 * 34 = 782.",
-    "Category": "Multiplication"
+    "id": 36,
+    "original_text": "A store sells 15 shirts in the morning and 20 shirts in the evening. How many shirts does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "15", "shirts", "in", "the", "morning", "and", "20", "shirts", "in", "the", "evening", ".", "How", "many", "shirts", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "15 + 20",
+    "answer": 35,
+    "category": "Addition"
   },
   {
-    "Problem": "Divide 540 by 6.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "540 / 6",
-    "Solution": 90,
-    "Explanation": "Divide the first number by the second: 540 / 6 = 90.",
-    "Category": "Division"
+    "id": 37,
+    "original_text": "David has 40 marbles. If he wants to distribute them equally among 4 friends, how many marbles will each friend get?",
+    "segmented_text": ["David", "has", "40", "marbles", ".", "If", "he", "wants", "to", "distribute", "them", "equally", "among", "4", "friends", ".", "How", "many", "marbles", "will", "each", "friend", "get", "?"],
+    "equation": "40 / 4",
+    "answer": 10,
+    "category": "Division"
   },
   {
-    "Problem": "In a basket, there are 30 apples. If 10 more are added, how many apples are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "30 + 10",
-    "Solution": 40,
-    "Explanation": "Add the initial count to the additional apples: 30 + 10 = 40.",
-    "Category": "Word Problem"
+    "id": 38,
+    "original_text": "A train travels a distance of 150 km in 2 hours. What is the average speed of the train?",
+    "segmented_text": ["A", "train", "travels", "a", "distance", "of", "150", "km", "in", "2", "hours", ".", "What", "is", "the", "average", "speed", "of", "the", "train", "?"],
+    "equation": "150 / 2",
+    "answer": 75,
+    "category": "Division"
   },
   {
-    "Problem": "Samantha has 60 candies. She gives 15 candies to her friend. How many candies does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "60 - 15",
-    "Solution": 45,
-    "Explanation": "Subtract the candies given from the initial count: 60 - 15 = 45.",
-    "Category": "Word Problem"
+    "id": 39,
+    "original_text": "A box contains 12 red balls and 9 green balls. What is the total number of balls in the box?",
+    "segmented_text": ["A", "box", "contains", "12", "red", "balls", "and", "9", "green", "balls", ".", "What", "is", "the", "total", "number", "of", "balls", "in", "the", "box", "?"],
+    "equation": "12 + 9",
+    "answer": 21,
+    "category": "Addition"
   },
   {
-    "Problem": "Calculate the sum of 789 and 234.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "789 + 234",
-    "Solution": 1023,
-    "Explanation": "Simply add the two numbers together: 789 + 234 = 1023.",
-    "Category": "Addition"
+    "id": 40,
+    "original_text": "A classroom has 24 students. If each student has 2 textbooks, how many textbooks are there in total?",
+    "segmented_text": ["A", "classroom", "has", "24", "students", ".", "If", "each", "student", "has", "2", "textbooks", ",", "how", "many", "textbooks", "are", "there", "in", "total", "?"],
+    "equation": "24 * 2",
+    "answer": 48,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Subtract 356 from 500.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "500 - 356",
-    "Solution": 144,
-    "Explanation": "Subtract the second number from the first: 500 - 356 = 144.",
-    "Category": "Subtraction"
+    "id": 41,
+    "original_text": "Sophie has a rectangular garden with a length of 18 meters and a width of 6 meters. What is the perimeter of the garden?",
+    "segmented_text": ["Sophie", "has", "a", "rectangular", "garden", "with", "a", "length", "of", "18", "meters", "and", "a", "width", "of", "6", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "garden", "?"],
+    "equation": "2 * (18 + 6)",
+    "answer": 48,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Multiply 45 by 18.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "45 * 18",
-    "Solution": 810,
-    "Explanation": "Multiply the two numbers: 45 * 18 = 810.",
-    "Category": "Multiplication"
+    "id": 42,
+    "original_text": "A company produces 25 units of a product every hour. If they work for 6 hours, how many units do they produce?",
+    "segmented_text": ["A", "company", "produces", "25", "units", "of", "a", "product", "every", "hour", ".", "If", "they", "work", "for", "6", "hours", ",", "how", "many", "units", "do", "they", "produce", "?"],
+    "equation": "25 * 6",
+    "answer": 150,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Divide 720 by 8.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "720 / 8",
-    "Solution": 90,
-    "Explanation": "Divide the first number by the second: 720 / 8 = 90.",
-    "Category": "Division"
+    "id": 43,
+    "original_text": "Ella has $80. She spends $25 on a dress and $15 on shoes. How much money does Ella have left?",
+    "segmented_text": ["Ella", "has", "$80", ".", "She", "spends", "$25", "on", "a", "dress", "and", "$15", "on", "shoes", ".", "How", "much", "money", "does", "Ella", "have", "left", "?"],
+    "equation": "80 - 25 - 15",
+    "answer": 40,
+    "category": "Subtraction"
   },
   {
-    "Problem": "In a box, there are 50 books. If 20 more are added, how many books are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "50 + 20",
-    "Solution": 70,
-    "Explanation": "Add the initial count to the additional books: 50 + 20 = 70.",
-    "Category": "Word Problem"
+    "id": 44,
+    "original_text": "A train travels at a speed of 50 km/h. If it travels for 3 hours, how far does the train travel?",
+    "segmented_text": ["A", "train", "travels", "at", "a", "speed", "of", "50", "km/h", ".", "If", "it", "travels", "for", "3", "hours", ",", "how", "far", "does", "the", "train", "travel", "?"],
+    "equation": "50 * 3",
+    "answer": 150,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Alice has 96 balloons. She gives 30 balloons to her friend. How many balloons does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "96 - 30",
-    "Solution": 66,
-    "Explanation": "Subtract the balloons given from the initial count: 96 - 30 = 66.",
-    "Category": "Word Problem"
+    "id": 45,
+    "original_text": "A classroom has 30 desks, and each desk can accommodate 2 students. How many students can the classroom accommodate?",
+    "segmented_text": ["A", "classroom", "has", "30", "desks", ",", "and", "each", "desk", "can", "accommodate", "2", "students", ".", "How", "many", "students", "can", "the", "classroom", "accommodate", "?"],
+    "equation": "30 * 2",
+    "answer": 60,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Find the product of 27 and 14.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "27 * 14",
-    "Solution": 378,
-    "Explanation": "Multiply the two numbers: 27 * 14 = 378.",
-    "Category": "Multiplication"
+    "id": 46,
+    "original_text": "A box contains 14 red balls and 10 blue balls. What is the total number of balls in the box?",
+    "segmented_text": ["A", "box", "contains", "14", "red", "balls", "and", "10", "blue", "balls", ".", "What", "is", "the", "total", "number", "of", "balls", "in", "the", "box", "?"],
+    "equation": "14 + 10",
+    "answer": 24,
+    "category": "Addition"
   },
   {
-    "Problem": "Divide 540 by 9.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "540 / 9",
-    "Solution": 60,
-    "Explanation": "Divide the first number by the second: 540 / 9 = 60.",
-    "Category": "Division"
+    "id": 47,
+    "original_text": "Lucas has 16 board games. If he wants to organize them equally on 4 shelves, how many board games will be on each shelf?",
+    "segmented_text": ["Lucas", "has", "16", "board", "games", ".", "If", "he", "wants", "to", "organize", "them", "equally", "on", "4", "shelves", ".", "How", "many", "board", "games", "will", "be", "on", "each", "shelf", "?"],
+    "equation": "16 / 4",
+    "answer": 4,
+    "category": "Division"
   },
   {
-    "Problem": "In a basket, there are 40 oranges. If 15 more are added, how many oranges are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "40 + 15",
-    "Solution": 55,
-    "Explanation": "Add the initial count to the additional oranges: 40 + 15 = 55.",
-    "Category": "Word Problem"
+    "id": 48,
+    "original_text": "A garden has 20 rows of flowers, and each row has 5 flowers. How many flowers are there in total?",
+    "segmented_text": ["A", "garden", "has", "20", "rows", "of", "flowers", ",", "and", "each", "row", "has", "5", "flowers", ".", "How", "many", "flowers", "are", "there", "in", "total", "?"],
+    "equation": "20 * 5",
+    "answer": 100,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Chris has 75 cookies. He gives 25 cookies to his friend. How many cookies does he have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "75 - 25",
-    "Solution": 50,
-    "Explanation": "Subtract the cookies given from the initial count: 75 - 25 = 50.",
-    "Category": "Word Problem"
+    "id": 49,
+    "original_text": "A rectangular pool has a length of 25 meters and a width of 10 meters. What is the area of the pool?",
+    "segmented_text": ["A", "rectangular", "pool", "has", "a", "length", "of", "25", "meters", "and", "a", "width", "of", "10", "meters", ".", "What", "is", "the", "area", "of", "the", "pool", "?"],
+    "equation": "25 * 10",
+    "answer": 250,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Calculate the sum of 567 and 321.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "567 + 321",
-    "Solution": 888,
-    "Explanation": "Simply add the two numbers together: 567 + 321 = 888.",
-    "Category": "Addition"
+    "id": 50,
+    "original_text": "Lisa has 36 candies. She wants to distribute them equally among 6 friends. How many candies will each friend get?",
+    "segmented_text": ["Lisa", "has", "36", "candies", ".", "She", "wants", "to", "distribute", "them", "equally", "among", "6", "friends", ".", "How", "many", "candies", "will", "each", "friend", "get", "?"],
+    "equation": "36 / 6",
+    "answer": 6,
+    "category": "Division"
   },
   {
-    "Problem": "Subtract 459 from 820.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "820 - 459",
-    "Solution": 361,
-    "Explanation": "Subtract the second number from the first: 820 - 459 = 361.",
-    "Category": "Subtraction"
+    "id": 51,
+    "original_text": "A garden has 24 rows of trees, and each row has 9 trees. How many trees are there in total?",
+    "segmented_text": ["A", "garden", "has", "24", "rows", "of", "trees", ",", "and", "each", "row", "has", "9", "trees", ".", "How", "many", "trees", "are", "there", "in", "total", "?"],
+    "equation": "24 * 9",
+    "answer": 216,
+    "category": "Multiplication"
   },
   {
-    "Problem": "Multiply 38 by 17.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "38 * 17",
-    "Solution": 646,
-    "Explanation": "Multiply the two numbers: 38 * 17 = 646.",
-    "Category": "Multiplication"
+    "id": 52,
+    "original_text": "Emma has 45 stamps. She wants to organize them equally in 5 albums. How many stamps will be in each album?",
+    "segmented_text": ["Emma", "has", "45", "stamps", ".", "She", "wants", "to", "organize", "them", "equally", "in", "5", "albums", ".", "How", "many", "stamps", "will", "be", "in", "each", "album", "?"],
+    "equation": "45 / 5",
+    "answer": 9,
+    "category": "Division"
   },
   {
-    "Problem": "Divide 720 by 12.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "720 / 12",
-    "Solution": 60,
-    "Explanation": "Divide the first number by the second: 720 / 12 = 60.",
-    "Category": "Division"
-  },
-  {
-    "Problem": "In a box, there are 60 notebooks. If 25 more are added, how many notebooks are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "60 + 25",
-    "Solution": 85,
-    "Explanation": "Add the initial count to the additional notebooks: 60 + 25 = 85.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "David has 90 pencils. He gives 35 pencils to his friend. How many pencils does he have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "90 - 35",
-    "Solution": 55,
-    "Explanation": "Subtract the pencils given from the initial count: 90 - 35 = 55.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Calculate the product of 52 and 19.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "52 * 19",
-    "Solution": 988,
-    "Explanation": "Multiply the two numbers: 52 * 19 = 988.",
-    "Category": "Multiplication"
-  },
-  {
-    "Problem": "Divide 720 by 8.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "720 / 8",
-    "Solution": 90,
-    "Explanation": "Divide the first number by the second: 720 / 8 = 90.",
-    "Category": "Division"
-  },
-  {
-    "Problem": "In a basket, there are 25 mangoes. If 15 more are added, how many mangoes are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "25 + 15",
-    "Solution": 40,
-    "Explanation": "Add the initial count to the additional mangoes: 25 + 15 = 40.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Emma has 70 chocolates. She gives 25 chocolates to her friend. How many chocolates does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "70 - 25",
-    "Solution": 45,
-    "Explanation": "Subtract the chocolates given from the initial count: 70 - 25 = 45.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Calculate the sum of 789 and 123.",
-    "Rationale": "Testing addition skills with three-digit numbers.",
-    "Formula": "789 + 123",
-    "Solution": 912,
-    "Explanation": "Simply add the two numbers together: 789 + 123 = 912.",
-    "Category": "Addition"
-  },
-  {
-    "Problem": "Subtract 297 from 500.",
-    "Rationale": "Evaluating subtraction proficiency.",
-    "Formula": "500 - 297",
-    "Solution": 203,
-    "Explanation": "Subtract the second number from the first: 500 - 297 = 203.",
-    "Category": "Subtraction"
-  },
-  {
-    "Problem": "Multiply 36 by 14.",
-    "Rationale": "Testing multiplication skills with two-digit numbers.",
-    "Formula": "36 * 14",
-    "Solution": 504,
-    "Explanation": "Multiply the two numbers: 36 * 14 = 504.",
-    "Category": "Multiplication"
-  },
-  {
-    "Problem": "Divide 800 by 8.",
-    "Rationale": "Evaluating division proficiency.",
-    "Formula": "800 / 8",
-    "Solution": 100,
-    "Explanation": "Divide the first number by the second: 800 / 8 = 100.",
-    "Category": "Division"
-  },
-  {
-    "Problem": "In a box, there are 50 pens. If 15 more are added, how many pens are there in total?",
-    "Rationale": "Applying addition to a real-life scenario.",
-    "Formula": "50 + 15",
-    "Solution": 65,
-    "Explanation": "Add the initial count to the additional pens: 50 + 15 = 65.",
-    "Category": "Word Problem"
-  },
-  {
-    "Problem": "Olivia has 80 stickers. She gives 30 stickers to her friend. How many stickers does she have now?",
-    "Rationale": "Using subtraction in a practical context.",
-    "Formula": "80 - 30",
-    "Solution": 50,
-    "Explanation": "Subtract the stickers given from the initial count: 80 - 30 = 50.",
-    "Category": "Word Problem"
+    "id": 53,
+    "original_text": "A bike travels at a speed of 30 km/h. If it travels for 2.5 hours, how far does the bike travel?",
+    "segmented_text": ["A", "bike", "travels", "at", "a", "speed", "of", "30", "km/h", ".", "If", "it", "travels", "for", "2.5", "hours", ",", "how", "far", "does", "the", "bike", "travel", "?"],
+    "equation": "30 * 2.5",
+    "answer": 75,
+    "category": "Multiplication"
+  },
+  {
+    "id": 54,
+    "original_text": "A box contains 18 green apples and 12 red apples. What is the total number of apples in the box?",
+    "segmented_text": ["A", "box", "contains", "18", "green", "apples", "and", "12", "red", "apples", ".", "What", "is", "the", "total", "number", "of", "apples", "in", "the", "box", "?"],
+    "equation": "18 + 12",
+    "answer": 30,
+    "category": "Addition"
+  },
+  {
+    "id": 55,
+    "original_text": "Oliver has 24 toy cars. If he wants to share them equally among 6 friends, how many toy cars will each friend get?",
+    "segmented_text": ["Oliver", "has", "24", "toy", "cars", ".", "If", "he", "wants", "to", "share", "them", "equally", "among", "6", "friends", ".", "How", "many", "toy", "cars", "will", "each", "friend", "get", "?"],
+    "equation": "24 / 6",
+    "answer": 4,
+    "category": "Division"
+  },
+  {
+    "id": 56,
+    "original_text": "A rectangular room has a length of 14 meters and a width of 7 meters. What is the area of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "14", "meters", "and", "a", "width", "of", "7", "meters", ".", "What", "is", "the", "area", "of", "the", "room", "?"],
+    "equation": "14 * 7",
+    "answer": 98,
+    "category": "Multiplication"
+  },
+  {
+    "id": 57,
+    "original_text": "A store sells 20 laptops in the morning and 15 laptops in the evening. How many laptops does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "20", "laptops", "in", "the", "morning", "and", "15", "laptops", "in", "the", "evening", ".", "How", "many", "laptops", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "20 + 15",
+    "answer": 35,
+    "category": "Addition"
+  },
+  {
+    "id": 58,
+    "original_text": "A rectangular field has a length of 20 meters and a width of 12 meters. What is the perimeter of the field?",
+    "segmented_text": ["A", "rectangular", "field", "has", "a", "length", "of", "20", "meters", "and", "a", "width", "of", "12", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "field", "?"],
+    "equation": "2 * (20 + 12)",
+    "answer": 64,
+    "category": "Multiplication"
+  },
+  {
+    "id": 59,
+    "original_text": "A bookshelf has 6 shelves, and each shelf can hold 15 books. How many books can the entire bookshelf hold?",
+    "segmented_text": ["A", "bookshelf", "has", "6", "shelves", ",", "and", "each", "shelf", "can", "hold", "15", "books", ".", "How", "many", "books", "can", "the", "entire", "bookshelf", "hold", "?"],
+    "equation": "6 * 15",
+    "answer": 90,
+    "category": "Multiplication"
+  },
+  {
+    "id": 60,
+    "original_text": "A garden has 30 rows of vegetables. If each row has 10 vegetables, how many vegetables are there in total?",
+    "segmented_text": ["A", "garden", "has", "30", "rows", "of", "vegetables", ".", "If", "each", "row", "has", "10", "vegetables", ",", "how", "many", "vegetables", "are", "there", "in", "total", "?"],
+    "equation": "30 * 10",
+    "answer": 300,
+    "category": "Multiplication"
+  },
+  {
+    "id": 61,
+    "original_text": "A train travels at a speed of 60 km/h. If it travels for 2 hours and 30 minutes, how far does the train travel?",
+    "segmented_text": ["A", "train", "travels", "at", "a", "speed", "of", "60", "km/h", ".", "If", "it", "travels", "for", "2", "hours", "and", "30", "minutes", ",", "how", "far", "does", "the", "train", "travel", "?"],
+    "equation": "60 * (2 + 30/60)",
+    "answer": 150,
+    "category": "Multiplication"
+  },
+  {
+    "id": 62,
+    "original_text": "A box contains 22 oranges and 18 apples. What is the total number of fruits in the box?",
+    "segmented_text": ["A", "box", "contains", "22", "oranges", "and", "18", "apples", ".", "What", "is", "the", "total", "number", "of", "fruits", "in", "the", "box", "?"],
+    "equation": "22 + 18",
+    "answer": 40,
+    "category": "Addition"
+  },
+  {
+    "id": 63,
+    "original_text": "Sophie has a rectangular garden with a length of 16 meters and a width of 9 meters. What is the area of the garden?",
+    "segmented_text": ["Sophie", "has", "a", "rectangular", "garden", "with", "a", "length", "of", "16", "meters", "and", "a", "width", "of", "9", "meters", ".", "What", "is", "the", "area", "of", "the", "garden", "?"],
+    "equation": "16 * 9",
+    "answer": 144,
+    "category": "Multiplication"
+  },
+  {
+    "id": 64,
+    "original_text": "A school bus has 36 seats. If each row has 4 seats, how many rows are there in the school bus?",
+    "segmented_text": ["A", "school", "bus", "has", "36", "seats", ".", "If", "each", "row", "has", "4", "seats", ",", "how", "many", "rows", "are", "there", "in", "the", "school", "bus", "?"],
+    "equation": "36 / 4",
+    "answer": 9,
+    "category": "Division"
+  },
+  {
+    "id": 65,
+    "original_text": "Ethan has $150. He spends $50 on a video game and $30 on snacks. How much money does Ethan have left?",
+    "segmented_text": ["Ethan", "has", "$150", ".", "He", "spends", "$50", "on", "a", "video", "game", "and", "$30", "on", "snacks", ".", "How", "much", "money", "does", "Ethan", "have", "left", "?"],
+    "equation": "150 - 50 - 30",
+    "answer": 70,
+    "category": "Subtraction"
+  },
+  {
+    "id": 66,
+    "original_text": "A rectangular room has a length of 20 meters and a width of 5 meters. What is the area of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "20", "meters", "and", "a", "width", "of", "5", "meters", ".", "What", "is", "the", "area", "of", "the", "room", "?"],
+    "equation": "20 * 5",
+    "answer": 100,
+    "category": "Multiplication"
+  },
+  {
+    "id": 67,
+    "original_text": "A store sells 30 laptops in the morning and 25 laptops in the evening. How many laptops does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "30", "laptops", "in", "the", "morning", "and", "25", "laptops", "in", "the", "evening", ".", "How", "many", "laptops", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "30 + 25",
+    "answer": 55,
+    "category": "Addition"
+  },
+  {
+    "id": 68,
+    "original_text": "A cylindrical tank has a radius of 8 meters and a height of 12 meters. What is the volume of the tank?",
+    "segmented_text": ["A", "cylindrical", "tank", "has", "a", "radius", "of", "8", "meters", "and", "a", "height", "of", "12", "meters", ".", "What", "is", "the", "volume", "of", "the", "tank", "?"],
+    "equation": "π * 8^2 * 12",
+    "answer": 2419.2,
+    "category": "Multiplication"
+  },
+  {
+    "id": 69,
+    "original_text": "A box contains 30 chocolates. If each row has 5 chocolates, how many rows are there in the box?",
+    "segmented_text": ["A", "box", "contains", "30", "chocolates", ".", "If", "each", "row", "has", "5", "chocolates", ",", "how", "many", "rows", "are", "there", "in", "the", "box", "?"],
+    "equation": "30 / 5",
+    "answer": 6,
+    "category": "Division"
+  },
+  {
+    "id": 70,
+    "original_text": "A rectangular garden has a length of 15 meters and a width of 8 meters. What is the perimeter of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "15", "meters", "and", "a", "width", "of", "8", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "garden", "?"],
+    "equation": "2 * (15 + 8)",
+    "answer": 46,
+    "category": "Multiplication"
+  },
+  {
+    "id": 71,
+    "original_text": "A rectangular field has a length of 25 meters and a width of 6 meters. What is the area of the field?",
+    "segmented_text": ["A", "rectangular", "field", "has", "a", "length", "of", "25", "meters", "and", "a", "width", "of", "6", "meters", ".", "What", "is", "the", "area", "of", "the", "field", "?"],
+    "equation": "25 * 6",
+    "answer": 150,
+    "category": "Multiplication"
+  },
+  {
+    "id": 72,
+    "original_text": "A store sells 18 shirts in the morning and 22 shirts in the evening. How many shirts does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "18", "shirts", "in", "the", "morning", "and", "22", "shirts", "in", "the", "evening", ".", "How", "many", "shirts", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "18 + 22",
+    "answer": 40,
+    "category": "Addition"
+  },
+  {
+    "id": 73,
+    "original_text": "A rectangular room has a length of 15 meters and a width of 10 meters. What is the area of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "15", "meters", "and", "a", "width", "of", "10", "meters", ".", "What", "is", "the", "area", "of", "the", "room", "?"],
+    "equation": "15 * 10",
+    "answer": 150,
+    "category": "Multiplication"
+  },
+  {
+    "id": 74,
+    "original_text": "A school has 5 classrooms, and each classroom has 25 students. How many students are there in the school?",
+    "segmented_text": ["A", "school", "has", "5", "classrooms", ",", "and", "each", "classroom", "has", "25", "students", ".", "How", "many", "students", "are", "there", "in", "the", "school", "?"],
+    "equation": "5 * 25",
+    "answer": 125,
+    "category": "Multiplication"
+  },
+  {
+    "id": 75,
+    "original_text": "A box contains 20 red balls and 15 blue balls. What is the total number of balls in the box?",
+    "segmented_text": ["A", "box", "contains", "20", "red", "balls", "and", "15", "blue", "balls", ".", "What", "is", "the", "total", "number", "of", "balls", "in", "the", "box", "?"],
+    "equation": "20 + 15",
+    "answer": 35,
+    "category": "Addition"
+  },
+  {
+    "id": 76,
+    "original_text": "A train travels at a speed of 70 km/h. If it travels for 2 hours and 45 minutes, how far does the train travel?",
+    "segmented_text": ["A", "train", "travels", "at", "a", "speed", "of", "70", "km/h", ".", "If", "it", "travels", "for", "2", "hours", "and", "45", "minutes", ",", "how", "far", "does", "the", "train", "travel", "?"],
+    "equation": "70 * (2 + 45/60)",
+    "answer": 192.5,
+    "category": "Multiplication"
+  },
+  {
+    "id": 77,
+    "original_text": "A rectangular garden has a length of 30 meters and a width of 7 meters. What is the area of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "30", "meters", "and", "a", "width", "of", "7", "meters", ".", "What", "is", "the", "area", "of", "the", "garden", "?"],
+    "equation": "30 * 7",
+    "answer": 210,
+    "category": "Multiplication"
+  },
+  {
+    "id": 78,
+    "original_text": "A box contains 24 chocolates. If each row has 6 chocolates, how many rows are there in the box?",
+    "segmented_text": ["A", "box", "contains", "24", "chocolates", ".", "If", "each", "row", "has", "6", "chocolates", ",", "how", "many", "rows", "are", "there", "in", "the", "box", "?"],
+    "equation": "24 / 6",
+    "answer": 4,
+    "category": "Division"
+  },
+  {
+    "id": 79,
+    "original_text": "A rectangular pool has a length of 18 meters and a width of 9 meters. What is the area of the pool?",
+    "segmented_text": ["A", "rectangular", "pool", "has", "a", "length", "of", "18", "meters", "and", "a", "width", "of", "9", "meters", ".", "What", "is", "the", "area", "of", "the", "pool", "?"],
+    "equation": "18 * 9",
+    "answer": 162,
+    "category": "Multiplication"
+  },
+  {
+    "id": 80,
+    "original_text": "A store sells 40 laptops in the morning and 30 laptops in the evening. How many laptops does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "40", "laptops", "in", "the", "morning", "and", "30", "laptops", "in", "the", "evening", ".", "How", "many", "laptops", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "40 + 30",
+    "answer": 70,
+    "category": "Addition"
+  },
+  {
+    "id": 81,
+    "original_text": "A rectangular garden has a length of 12 meters and a width of 8 meters. What is the perimeter of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "12", "meters", "and", "a", "width", "of", "8", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "garden", "?"],
+    "equation": "2 * (12 + 8)",
+    "answer": 40,
+    "category": "Multiplication"
+  },
+  {
+    "id": 82,
+    "original_text": "A box contains 28 green apples and 20 red apples. What is the total number of apples in the box?",
+    "segmented_text": ["A", "box", "contains", "28", "green", "apples", "and", "20", "red", "apples", ".", "What", "is", "the", "total", "number", "of", "apples", "in", "the", "box", "?"],
+    "equation": "28 + 20",
+    "answer": 48,
+    "category": "Addition"
+  },
+  {
+    "id": 83,
+    "original_text": "A train travels at a speed of 55 km/h. If it travels for 4 hours, how far does the train travel?",
+    "segmented_text": ["A", "train", "travels", "at", "a", "speed", "of", "55", "km/h", ".", "If", "it", "travels", "for", "4", "hours", ",", "how", "far", "does", "the", "train", "travel", "?"],
+    "equation": "55 * 4",
+    "answer": 220,
+    "category": "Multiplication"
+  },
+  {
+    "id": 84,
+    "original_text": "A rectangular room has a length of 16 meters and a width of 6 meters. What is the area of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "16", "meters", "and", "a", "width", "of", "6", "meters", ".", "What", "is", "the", "area", "of", "the", "room", "?"],
+    "equation": "16 * 6",
+    "answer": 96,
+    "category": "Multiplication"
+  },
+  {
+    "id": 85,
+    "original_text": "A store sells 35 laptops in the morning and 25 laptops in the evening. How many laptops does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "35", "laptops", "in", "the", "morning", "and", "25", "laptops", "in", "the", "evening", ".", "How", "many", "laptops", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "35 + 25",
+    "answer": 60,
+    "category": "Addition"
+  },
+  {
+    "id": 86,
+    "original_text": "A cylindrical tank has a radius of 10 meters and a height of 15 meters. What is the volume of the tank?",
+    "segmented_text": ["A", "cylindrical", "tank", "has", "a", "radius", "of", "10", "meters", "and", "a", "height", "of", "15", "meters", ".", "What", "is", "the", "volume", "of", "the", "tank", "?"],
+    "equation": "π * 10^2 * 15",
+    "answer": 4712.4,
+    "category": "Multiplication"
+  },
+  {
+    "id": 87,
+    "original_text": "A rectangular garden has a length of 14 meters and a width of 5 meters. What is the area of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "14", "meters", "and", "a", "width", "of", "5", "meters", ".", "What", "is", "the", "area", "of", "the", "garden", "?"],
+    "equation": "14 * 5",
+    "answer": 70,
+    "category": "Multiplication"
+  },
+  {
+    "id": 88,
+    "original_text": "A box contains 32 chocolates. If each row has 8 chocolates, how many rows are there in the box?",
+    "segmented_text": ["A", "box", "contains", "32", "chocolates", ".", "If", "each", "row", "has", "8", "chocolates", ",", "how", "many", "rows", "are", "there", "in", "the", "box", "?"],
+    "equation": "32 / 8",
+    "answer": 4,
+    "category": "Division"
+  },
+  {
+    "id": 89,
+    "original_text": "A classroom has 40 desks, and each desk can accommodate 3 students. How many students can the classroom accommodate?",
+    "segmented_text": ["A", "classroom", "has", "40", "desks", ",", "and", "each", "desk", "can", "accommodate", "3", "students", ".", "How", "many", "students", "can", "the", "classroom", "accommodate", "?"],
+    "equation": "40 * 3",
+    "answer": 120,
+    "category": "Multiplication"
+  },
+  {
+    "id": 90,
+    "original_text": "A rectangular garden has a length of 20 meters and a width of 10 meters. What is the perimeter of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "20", "meters", "and", "a", "width", "of", "10", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "garden", "?"],
+    "equation": "2 * (20 + 10)",
+    "answer": 60,
+    "category": "Multiplication"
+  },
+  {
+    "id": 91,
+    "original_text": "A rectangular room has a length of 18 meters and a width of 7 meters. What is the area of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "18", "meters", "and", "a", "width", "of", "7", "meters", ".", "What", "is", "the", "area", "of", "the", "room", "?"],
+    "equation": "18 * 7",
+    "answer": 126,
+    "category": "Multiplication"
+  },
+  {
+    "id": 92,
+    "original_text": "A store sells 45 laptops in the morning and 35 laptops in the evening. How many laptops does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "45", "laptops", "in", "the", "morning", "and", "35", "laptops", "in", "the", "evening", ".", "How", "many", "laptops", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "45 + 35",
+    "answer": 80,
+    "category": "Addition"
+  },
+  {
+    "id": 93,
+    "original_text": "A rectangular garden has a length of 22 meters and a width of 9 meters. What is the area of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "22", "meters", "and", "a", "width", "of", "9", "meters", ".", "What", "is", "the", "area", "of", "the", "garden", "?"],
+    "equation": "22 * 9",
+    "answer": 198,
+    "category": "Multiplication"
+  },
+  {
+    "id": 94,
+    "original_text": "A box contains 36 chocolates. If each row has 6 chocolates, how many rows are there in the box?",
+    "segmented_text": ["A", "box", "contains", "36", "chocolates", ".", "If", "each", "row", "has", "6", "chocolates", ",", "how", "many", "rows", "are", "there", "in", "the", "box", "?"],
+    "equation": "36 / 6",
+    "answer": 6,
+    "category": "Division"
+  },
+  {
+    "id": 95,
+    "original_text": "A school has 6 buses, and each bus can carry 40 students. How many students can the school transport in total?",
+    "segmented_text": ["A", "school", "has", "6", "buses", ",", "and", "each", "bus", "can", "carry", "40", "students", ".", "How", "many", "students", "can", "the", "school", "transport", "in", "total", "?"],
+    "equation": "6 * 40",
+    "answer": 240,
+    "category": "Multiplication"
+  },
+  {
+    "id": 96,
+    "original_text": "A cylindrical tank has a radius of 12 meters and a height of 8 meters. What is the volume of the tank?",
+    "segmented_text": ["A", "cylindrical", "tank", "has", "a", "radius", "of", "12", "meters", "and", "a", "height", "of", "8", "meters", ".", "What", "is", "the", "volume", "of", "the", "tank", "?"],
+    "equation": "π * 12^2 * 8",
+    "answer": 2890.3,
+    "category": "Multiplication"
+  },
+  {
+    "id": 97,
+    "original_text": "A rectangular garden has a length of 24 meters and a width of 10 meters. What is the perimeter of the garden?",
+    "segmented_text": ["A", "rectangular", "garden", "has", "a", "length", "of", "24", "meters", "and", "a", "width", "of", "10", "meters", ".", "What", "is", "the", "perimeter", "of", "the", "garden", "?"],
+    "equation": "2 * (24 + 10)",
+    "answer": 68,
+    "category": "Multiplication"
+  },
+  {
+    "id": 98,
+    "original_text": "A box contains 40 pens. If each row has 5 pens, how many rows are there in the box?",
+    "segmented_text": ["A", "box", "contains", "40", "pens", ".", "If", "each", "row", "has", "5", "pens", ",", "how", "many", "rows", "are", "there", "in", "the", "box", "?"],
+    "equation": "40 / 5",
+    "answer": 8,
+    "category": "Division"
+  },
+  {
+    "id": 99,
+    "original_text": "A rectangular room has a length of 20 meters and a width of 8 meters. What is the area of the room?",
+    "segmented_text": ["A", "rectangular", "room", "has", "a", "length", "of", "20", "meters", "and", "a", "width", "of", "8", "meters", ".", "What", "is", "the", "area", "of", "the", "room", "?"],
+    "equation": "20 * 8",
+    "answer": 160,
+    "category": "Multiplication"
+  },
+  {
+    "id": 100,
+    "original_text": "A store sells 50 shirts in the morning and 30 shirts in the evening. How many shirts does the store sell in total?",
+    "segmented_text": ["A", "store", "sells", "50", "shirts", "in", "the", "morning", "and", "30", "shirts", "in", "the", "evening", ".", "How", "many", "shirts", "does", "the", "store", "sell", "in", "total", "?"],
+    "equation": "50 + 30",
+    "answer": 80,
+    "category": "Addition"
   }
 ]
